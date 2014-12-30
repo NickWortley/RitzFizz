@@ -80,7 +80,7 @@
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
-        <a href="{{ pathto(master_doc) }}"> {{ project }}</a>
+        <div class="project-name">{{ project }}</div>
       </div>
       {% include "searchbox.html" %}
 
@@ -101,7 +101,7 @@
       {# MOBILE NAV, TRIGGLES SIDE NAV ON TOGGLE #}
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="{{ pathto(master_doc) }}">{{ project }}</a>
+        <div class="project-title-mob">{{ project }}</div>
       </nav>
 
 

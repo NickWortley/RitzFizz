@@ -49,9 +49,9 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 20px 0;
-    padding: 0
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 20px 0;
+    padding-top: 20px;
 }
 ins {
     background: #ff9;
@@ -3059,12 +3059,13 @@ div[class^='highlight'] pre {
     display: block;
     margin-bottom: 1em;
 }
-.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
+.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a, .project-name {
     color: #fcfcfc;
     font-size: 20px;
     font-weight: 300;
     text-transform: uppercase;
     display: inline-block;
+    -webkit-font-smoothing: antialiased;
 }
 .wy-side-nav-search>a:hover, .wy-side-nav-search .wy-dropdown>a:hover {
     background: rgba(255, 255, 255, 0.1)
@@ -3140,7 +3141,7 @@ div[class^='highlight'] pre {
     display: none;
     background: #419fb5;
     color: #fff;
-    padding: 30px 34px 0 34px;
+    padding: 30px 14px 0 14px;
     position: relative;
     line-height: 50px;
     text-align: center;
@@ -3157,9 +3158,10 @@ div[class^='highlight'] pre {
 .wy-nav-top:after {
     clear: both
 }
-.wy-nav-top a {
-    color: #fff;
+.wy-nav-top .project-title-mob {
     text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+
 }
 .wy-nav-top img {
     margin-right: 12px;
@@ -3170,10 +3172,10 @@ div[class^='highlight'] pre {
     border-radius: 100%
 }
 .wy-nav-top i {
-    font-size: 22px;
+    font-size: 40px;
     float: left;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 4px;
 }
 .wy-nav-content-wrap {
     margin-left: 300px;
@@ -3286,7 +3288,7 @@ footer .fa-arrow-circle-left {
     }
 }
 nav.stickynav {
-    position: fixed;
+    position: fixed !important;
     top: 0
 }
 .rst-versions {
@@ -3296,7 +3298,6 @@ nav.stickynav {
     width: 300px;
     color: #fcfcfc;
     background: #1f1d1d;
-    border-top: solid 10px #343131;
     font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
     z-index: 400
 }
@@ -3309,12 +3310,12 @@ nav.stickynav {
 }
 .rst-versions .rst-current-version {
     padding: 12px;
-    background-color: #272525;
+    background-color: #7c7c7c;
     display: block;
     text-align: right;
     font-size: 90%;
     cursor: pointer;
-    color: #27ae60;
+    color: #e56a55;
     *zoom: 1
 }
 .rst-versions .rst-current-version:before, .rst-versions .rst-current-version:after {

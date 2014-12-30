@@ -35,7 +35,7 @@
       <p>{{ _('Your search did not match any documents. Please make sure that all words are spelled correctly and that you\'ve selected enough categories.') }}</p>
     {% endif %}
   {% endif %}
-  <div id="search-results">
+  <div class="section" id="search-results">
   {% if search_results %}
     <ul>
     {% for href, caption, context in search_results %}
