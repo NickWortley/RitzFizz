@@ -2,13 +2,12 @@ from setuptools import setup
 setup(
   name = 'ritzfizz',
   packages = ['ritzfizz'],
-  version = '0.7',
-  description = 'Ritzfizz Sphinx Theme',
+  version = '0.9',
+  description = 'Ritzfizz Sphinx Theme by scorpionhoney.io',
   author = 'Adam Temple',
   author_email = 'adam@bixly.com',
-  url = 'https://github.com/adamhub/RitzFizz',
-  download_url = 'https://github.com/adamhub/RitzFizz/tarball/0.7',
-  keywords = ['sphinx', 'theme', 'readthedocs', 'ritzfizz'],
+  url = 'http://scorpionhoney.io',
+  keywords = ['sphinx', 'theme', 'readthedocs', 'rtd', 'ritzfizz', 'xepler', 'scorpionhoney'],
   classifiers = [],
   include_package_data=True,
 )
