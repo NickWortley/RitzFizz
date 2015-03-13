@@ -3059,7 +3059,7 @@ div[class^='highlight'] pre {
     display: block;
     margin-bottom: 1em;
 }
-.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a, .project-name {
+.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a, .project-name, .project-name a {
     color: #fcfcfc;
     font-size: 20px;
     font-weight: 300;
@@ -3161,7 +3161,9 @@ div[class^='highlight'] pre {
 .wy-nav-top .project-title-mob {
     text-transform: uppercase;
     -webkit-font-smoothing: antialiased;
-
+}
+.project-title-mob a {
+    color: white;
 }
 .wy-nav-top img {
     margin-right: 12px;
@@ -3195,7 +3197,7 @@ div[class^='highlight'] pre {
 
 
 ul.wy-breadcrumbs {
-    padding: 10px 30px;
+    padding: 11px 30px;
     background-color: #f4f4f4;
     border-radius: 6px 6px 0 0;
 }
